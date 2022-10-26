@@ -80,7 +80,7 @@ class User {
   }
 } */
 
-// Scope de variabkes o ambito de variables
+
 /* int x = 25;
 void main(List<String> args) {
   var x = 5;
@@ -89,7 +89,6 @@ void main(List<String> args) {
     print(x);
     print(y);
   }
-  // print(y); // No se pueden usar variables locales de una funcion
   showNumber();
   showX();
 }
