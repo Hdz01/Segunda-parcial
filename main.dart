@@ -1,6 +1,5 @@
-// import 'dart:io';
 
-// dynamic variable = "HOla";
+// dynamic variable = "Hola";
 // print(variable)
 // dynamic variable1 = 5;
 // print(variable)
