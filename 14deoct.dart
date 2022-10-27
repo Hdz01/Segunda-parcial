@@ -53,11 +53,11 @@ class vehiculo {
   }
 
   void correr() {
-    print("Rrrrrrrrr, el vehiculo va en movimiento");
+    print("el vehiculo va en movimiento");
   }
 
   void frenar() {
-    print('Issshhhh, el vehiculo se ha detenido.');
+    print('el vehiculo se ha detenido.');
   }
 
   void set llantas(int llantas) => _num_llantas = llantas;
