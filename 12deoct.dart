@@ -190,3 +190,31 @@ class Calculadora {
 //   }
 // }
 
+void main(List<String> args) {
+  Persona brian = new Persona();
+  brian.aMaterno = "Hernandez";
+  brian.aPaterno = "Avalos";
+  brian.nombre = "Brian";
+  brian.aNacimiento = 2001;
+
+  brian.showName(brian.nombre, brian.aPaterno, brian.aMaterno);
+  print("Tienes ${brian.calcularEdad(brian.aNacimiento)} años");
+  brian.showname2();
+}
+
+class Persona {
+  String nombre = "";
+  String aPaterno = "";
+  String aMaterno = "";
+  int aNacimiento = 0;
+
+  int calcularEdad(int aNacimiento) => 2022 - aNacimiento;
+
+  void showName(String nombre, String aPaterno, String aMaterno) {
+    print("$aPaterno $aMaterno $nombre");
+  }
+
+  void showname2() {
+    print("$aPaterno $aMaterno $nombre");
+  }
+}
