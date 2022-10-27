@@ -46,7 +46,7 @@ class vehiculo {
 
   void arrancar() {
     if (_num_llantas == 4) {
-      print('El auto se esta encendiendo....tucutucutucu.');
+      print('El auto se esta encendiendo');
     } else {
       print('Le faltan llantas al vehiculo, no puede arrancar');
     }
@@ -77,8 +77,7 @@ class vehiculo {
     this._modelo = modelo;
   }
 
-//   vehiculo(this._num_llantas, this._color, this._marca, this._modelo);
-//   vehiculo.marca(this._marca);  // Constructor resumido
+
 }
 
 void showVehiculo(vehiculo miCarro) {
