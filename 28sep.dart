@@ -1,4 +1,4 @@
-import 'dart:io';
+
 
 /* void main(List<String> args) {
   var n1 = 15;
@@ -60,12 +60,6 @@ import 'dart:io';
   finalEntero = numero;
   print("El mensaje es: $numero");
   // finalEntero = "Hola";
-  // constEntero = 10 ; // No se puede modificar asi
-  // finalEntero = 8;
-  // Tiempo de codificacion
-  // Tiempo de compilacion
-  // Tiempo de ejecucion
-} */
 
 /* void main(List<String> args) {
   var cadena = 5;
@@ -73,7 +67,7 @@ import 'dart:io';
   print(cadena.runtimeType);
   var cadena1 = "Hola ";
   var cadena2 = "Mundo";
-  var nombre = "Cristian ";
+  var nombre = "Brian ";
   var edad = 18;
   print(cadena1 + cadena2);
   print("$cadena1 $cadena2");
